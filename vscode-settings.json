@@ -1,0 +1,62 @@
+{
+  //Workbench
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Tokyo Night",
+  "workbench.editor.labelFormat": "short",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.untitled.hint": "hidden",
+
+  //Editor settings
+  "editor.fontSize": 18,
+  "editor.wordWrap": "on",
+  "editor.lineHeight": 27,
+  "terminal.integrated.fontSize": 14,
+  "editor.tabSize": 2,
+  "editor.fontLigatures": true,
+  "editor.renderLineHighlight": "gutter",
+  "editor.rulers": [80, 120],
+  "editor.parameterHints.enabled": false,
+  "editor.semanticHighlighting.enabled": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+
+  //VSCode stuff
+  "breadcrumbs.enabled": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "liveServer.settings.donotVerifyTags": true,
+  "window.commandCenter": false,
+  "liveServer.settings.donotShowInfoMsg": true,
+  
+   // Extensions
+   "extensions.ignoreRecommendations": true,
+   "diffEditor.ignoreTrimWhitespace": false,
+   "material-icon-theme.folders.associations": {
+     "domain": "core",
+     "infra": "app",
+     "main": "public",
+     "presentation": "connection",
+     "cryptography": "secure",
+     "entities": "class",
+     "repositories": "mappings",
+     "protocols": "resource",
+     "useCases": "components",
+     "subcomponents": "components",
+     "adapters": "connection",
+     "factories": "container",
+     "globals": "global",
+     "ui": "views"
+   },
+   "material-icon-theme.files.associations": {
+    "ormconfig.json": "database",
+    "tsconfig.json": "tune",
+    ".lintstagedrc.json": "tune"
+  },
+  "git.confirmSync": false,
+  "window.zoomLevel": 1
+}
